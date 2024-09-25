@@ -1,0 +1,39 @@
+medcalc:
+  id: medcalc.dev.v0
+  metrics: [accuracy]
+
+medcalc.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: medcalc/sample.jsonl
+
+
+medcalc_full:
+  id: medcalc_full.dev.v0
+  metrics: [accuracy]
+
+medcalc_full.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: medcalc/full.jsonl
+
+
+
+medcalc_ws:
+  id: medcalc.dev.v1
+  metrics: [accuracy]
+
+medcalc.dev.v1:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: medcalc/sample_w_system.jsonl
+
+
+medcalc_full_ws:
+  id: medcalc_full.dev.v1
+  metrics: [accuracy]
+
+medcalc_full.dev.v1:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: medcalc/full_w_system.jsonl

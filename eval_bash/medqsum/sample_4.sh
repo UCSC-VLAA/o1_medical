@@ -1,0 +1,1 @@
+EVALS_THREADS=10 oaieval   gpt-4-0125-preview medqsum --no-cache

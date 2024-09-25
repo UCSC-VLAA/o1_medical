@@ -1,0 +1,1 @@
+EVALS_THREADS=1 oaieval gpt-4-0125-preview mimic-iv-ct-test --no-cache

@@ -1,0 +1,1 @@
+EVALS_THREADS=1 oaieval epfl-llm/meditron-70b lancet_full --no-cache

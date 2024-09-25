@@ -1,0 +1,28 @@
+__pycache__/
+evals.egg-info/
+.env
+.venv/
+venv/
+
+# MacOS folder metadata
+.DS_Store
+.vscode/
+
+# PyCharm folder metadata
+.idea/
+
+build
+
+openai-key.txt
+*.code-workspace
+
+# Ignore run_experiments.sh results
+evals/elsuite/**/logs/
+evals/elsuite/**/outputs/
+AlignScore/**
+evallogs/**
+evals/registry/data/lancet/
+evals/registry/data/nejm/
+**/*.json*
+*.json*
+draw/**

@@ -1,0 +1,18 @@
+nejm:
+  id: nejm.dev.v0
+  metrics: [accuracy]
+
+nejm.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: nejm/nejm.jsonl
+
+
+nejm_cot:
+  id: nejm_cot.dev.v0
+  metrics: [accuracy]
+
+nejm_cot.dev.v0:
+  class: evals.elsuite.basic.match_xml:Match
+  args:
+    samples_jsonl: nejm/nejm_cot.jsonl

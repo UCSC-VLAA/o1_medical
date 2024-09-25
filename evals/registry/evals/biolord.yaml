@@ -1,0 +1,8 @@
+biolord:
+  id: biolord.dev.v0
+  metrics: [accuracy]
+
+biolord.dev.v0:
+  class: evals.elsuite.basic.match_nlp_gpt_hallu:Match
+  args:
+    samples_jsonl: biolord/sample_data.jsonl

@@ -1,0 +1,61 @@
+langchain/llm/gpt-3.5-turbo:
+  class: evals.completion_fns.langchain_llm:LangChainLLMCompletionFn
+  args:
+    llm: OpenAI
+    llm_kwargs:
+      model_name: gpt-3.5-turbo
+
+langchain/llm/text-davinci-003:
+  class: evals.completion_fns.langchain_llm:LangChainLLMCompletionFn
+  args:
+    llm: OpenAI
+    llm_kwargs:
+      model_name: text-davinci-003
+
+langchain/llm/flan-t5-xl:
+  class: evals.completion_fns.langchain_llm:LangChainLLMCompletionFn
+  args:
+    llm: HuggingFaceHub
+    llm_kwargs:
+      repo_id: google/flan-t5-xl
+
+
+vicuna-13b-v1.5:
+  class: evals.completion_fns.langchain_llm:HuggingfaceLLMCompletionFn
+  args:
+    llm: HuggingFaceHub
+    llm_kwargs:
+      repo_id: lmsys/vicuna-13b-v1.5
+
+
+langchain/chat_model/gpt-3.5-turbo:
+  class: evals.completion_fns.langchain_llm:LangChainChatModelCompletionFn
+  args:
+    llm: ChatOpenAI
+    llm_kwargs:
+      model_name: gpt-3.5-turbo
+
+
+HumanF-MarkrAI/pub-llama-13B-v5:
+  class: evals.completion_fns.langchain_llm:HuggingfaceLLMCompletionFn
+  args:
+    llm: HuggingFaceHub
+    llm_kwargs:
+      repo_id: HumanF-MarkrAI/pub-llama-13B-v5
+
+
+medalpaca/medalpaca-13b:
+  class: evals.completion_fns.langchain_llm:HuggingfaceLLMCompletionFn
+  args:
+    llm: HuggingFaceHub
+    llm_kwargs:
+      repo_id: medalpaca/medalpaca-13b
+
+
+
+epfl-llm/meditron-70b:
+  class: evals.completion_fns.langchain_llm:HuggingfaceLLMCompletionFn
+  args:
+    llm: HuggingFaceHub
+    llm_kwargs:
+      repo_id: epfl-llm/meditron-70b

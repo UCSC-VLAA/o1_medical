@@ -1,0 +1,8 @@
+do_entity:
+  id: do_entity.dev.v0
+  metrics: [accuracy]
+
+do_entity.dev.v0:
+  class: evals.elsuite.basic.match_nlp_gpt_hallu:Match
+  args:
+    samples_jsonl: do_entity/sample_data.jsonl

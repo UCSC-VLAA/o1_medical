@@ -1,0 +1,8 @@
+mimic-cxr:
+  id: mimic-cxr.dev.v0
+  metrics: [accuracy]
+
+mimic-cxr.dev.v0:
+  class: evals.elsuite.basic.match_nlp_gpt_hallu:Match
+  args:
+    samples_jsonl: mimic-cxr/sample_data.jsonl

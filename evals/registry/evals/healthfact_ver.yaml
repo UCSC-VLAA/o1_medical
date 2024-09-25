@@ -1,0 +1,8 @@
+healthfact_ver:
+  id: healthfact_ver.dev.v0
+  metrics: [accuracy]
+
+healthfact_ver.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: healthfact_ver/sample_data.jsonl

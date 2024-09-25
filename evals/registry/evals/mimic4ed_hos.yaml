@@ -1,0 +1,8 @@
+mimic4ed_hos:
+  id: mimic4ed_hos.dev.v0
+  metrics: [accuracy]
+
+mimic4ed_hos.dev.v0:
+  class: evals.elsuite.basic.match_nlp:Match
+  args:
+    samples_jsonl: mimic4ed_hos/sample_data.jsonl

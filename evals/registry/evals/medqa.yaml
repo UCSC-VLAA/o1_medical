@@ -1,0 +1,28 @@
+medqa:
+  id: medqa.dev.v0
+  metrics: [accuracy]
+
+medqa.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: medqa/pubmedqa_sample.jsonl
+
+medqa_full:
+  id: medqa_full.dev.v0
+  metrics: [accuracy]
+
+medqa_full.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: medqa/medqa.jsonl
+
+
+
+medqa_cot:
+  id: medqa_cot.dev.v0
+  metrics: [accuracy]
+
+medqa_cot.dev.v0:
+  class: evals.elsuite.basic.match_xml:Match
+  args:
+    samples_jsonl: medqa/medqa_cot.jsonl

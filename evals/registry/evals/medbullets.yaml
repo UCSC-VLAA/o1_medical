@@ -1,0 +1,8 @@
+medbullets_4:
+  id: medbullets_4.dev.v0
+  metrics: [accuracy]
+
+medbullets_4.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: medbullets/full.jsonl

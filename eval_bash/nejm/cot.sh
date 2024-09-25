@@ -1,0 +1,1 @@
+oaieval o1-preview nejm_cot --no-cache

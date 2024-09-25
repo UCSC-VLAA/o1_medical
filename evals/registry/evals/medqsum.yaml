@@ -1,0 +1,18 @@
+medqsum:
+  id: medqsum.dev.v0
+  metrics: [accuracy]
+
+medqsum.dev.v0:
+  class: evals.elsuite.basic.match_nlp_gpt_hallu:Match
+  args:
+    samples_jsonl: medqsum/full_data.jsonl
+
+
+medqsum_test:
+  id: medqsum_test.dev.v0
+  metrics: [accuracy]
+
+medqsum_test.dev.v0:
+  class: evals.elsuite.basic.match_nlp_gpt_hallu:Match
+  args:
+    samples_jsonl: medqsum/sample_data_10.jsonl

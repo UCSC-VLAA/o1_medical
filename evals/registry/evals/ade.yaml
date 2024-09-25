@@ -1,0 +1,8 @@
+ade:
+  id: ade.dev.v0
+  metrics: [accuracy]
+
+ade.dev.v0:
+  class: evals.elsuite.basic.match_exact:Match
+  args:
+    samples_jsonl: ade/sample_data.jsonl

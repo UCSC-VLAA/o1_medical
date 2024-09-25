@@ -1,0 +1,8 @@
+hoc:
+  id: hoc.dev.v0
+  metrics: [accuracy]
+
+hoc.dev.v0:
+  class: evals.elsuite.basic.match_nlp:Match
+  args:
+    samples_jsonl: hoc/sample_data.jsonl

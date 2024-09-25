@@ -1,0 +1,1 @@
+EVALS_THREADS=42 oaieval  gpt-4-0125-preview nejm --no-cache

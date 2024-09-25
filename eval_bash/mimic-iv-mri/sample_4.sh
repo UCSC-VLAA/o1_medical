@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 oaieval gpt-4-0125-preview mimic-iv-mri --no-cache

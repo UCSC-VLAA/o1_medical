@@ -1,0 +1,1 @@
+EVALS_THREADS=30 oaieval gpt-3.5-turbo ar --no-cache

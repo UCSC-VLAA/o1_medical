@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=3 oaieval o1-preview ade --no-cache

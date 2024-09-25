@@ -1,0 +1,27 @@
+chatDoctor_2:
+  id: chatDoctor_2.v0
+  metrics: [accuracy]
+
+chatDoctor_2.v0:
+  class: evals.elsuite.basic.match_nlp_gpt_hallu:Match
+  args:
+    samples_jsonl: chatDoctor/test_200.jsonl
+
+
+chatDoctor_2_align:
+  id: chatDoctor_2_align.v0
+  metrics: [accuracy]
+
+chatDoctor_2_align.v0:
+  class: evals.elsuite.basic.match_nlp_gpt_hallu:Match
+  args:
+    samples_jsonl: chatDoctor/test_200.jsonl
+
+chatDoctor_test:
+  id: chatDoctor_test.v0
+  metrics: [accuracy]
+
+chatDoctor_test.v0:
+  class: evals.elsuite.basic.match_nlp_gpt_hallu:Match
+  args:
+    samples_jsonl: chatDoctor/test_50.jsonl

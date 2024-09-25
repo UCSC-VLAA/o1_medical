@@ -1,0 +1,8 @@
+en:
+  id: en.dev.v0
+  metrics: [accuracy]
+
+en.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: /workspace/evals/evals/registry/data/XMedBench/test_en_500.jsonl

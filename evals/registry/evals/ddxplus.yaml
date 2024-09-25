@@ -1,0 +1,36 @@
+ddxplus:
+  id: ddxplus.dev.v0
+  metrics: [accuracy]
+
+ddxplus.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: ddxplus/sample_data.jsonl
+
+ddxplus_full:
+  id: ddxplus_full.dev.v0
+  metrics: [accuracy]
+
+ddxplus_full.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: ddxplus/test_full.jsonl
+
+ddxplus_new:
+  id: ddxplus_new.dev.v0
+  metrics: [accuracy]
+
+ddxplus_new.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: ddxplus/test_sample_new.jsonl
+
+ddxplus_:
+  id: ddxplus_.v0
+  metrics: [accuracy]
+
+ddxplus_.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: ddxplus/test_sample_50.jsonl
+

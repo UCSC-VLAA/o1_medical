@@ -1,0 +1,7 @@
+coqa-ex:
+  evals:
+    - coqa-match
+    - coqa-fact
+    - coqa-closedqa-correct
+    - coqa-closedqa-relevance
+    - coqa-closedqa-conciseness

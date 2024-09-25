@@ -1,0 +1,8 @@
+mednli_gen:
+  id: mednli_gen.dev.v0
+  metrics: [accuracy]
+
+mednli_gen.dev.v0:
+  class: evals.elsuite.basic.match_nlp_gpt_hallu:Match
+  args:
+    samples_jsonl: mednli_gen/sample_data.jsonl

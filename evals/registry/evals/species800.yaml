@@ -1,0 +1,8 @@
+species800:
+  id: species800.dev.v0
+  metrics: [accuracy]
+
+species800.dev.v0:
+  class: evals.elsuite.basic.match_nlp:Match
+  args:
+    samples_jsonl: species800/sample_data.jsonl

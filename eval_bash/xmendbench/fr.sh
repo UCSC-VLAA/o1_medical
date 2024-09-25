@@ -1,0 +1,1 @@
+EVALS_THREADS=10 oaieval o1-preview fr --no-cache

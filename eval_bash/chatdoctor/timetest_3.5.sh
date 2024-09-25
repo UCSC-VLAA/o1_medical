@@ -1,0 +1,1 @@
+EVALS_THREADS=1 oaieval gpt-3.5-turbo chatDoctor_test --no-cache

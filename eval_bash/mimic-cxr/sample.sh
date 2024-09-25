@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEBICES=0 oaieval o1-preview mimic-cxr --no-cache

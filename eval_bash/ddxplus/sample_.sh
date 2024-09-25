@@ -1,0 +1,1 @@
+EVALS_THREADS=1 oaieval medalpaca/medalpaca-13b ddxplus_ --no-cache

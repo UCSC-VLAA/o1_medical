@@ -1,0 +1,8 @@
+healthfact:
+  id: healthfact.dev.v0
+  metrics: [accuracy]
+
+healthfact.dev.v0:
+  class: evals.elsuite.basic.match_nlp_gpt_hallu:Match
+  args:
+    samples_jsonl: healthfact/sample_data.jsonl

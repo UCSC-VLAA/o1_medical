@@ -1,0 +1,17 @@
+agentclinic:
+  id: agentclinic.dev.v0
+  metrics: [accuracy]
+
+agentclinic.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: medqa/medqa_sample.jsonl
+
+agentclinic_full:
+  id: medqa_full.dev.v0
+  metrics: [accuracy]
+
+agentclinic_full.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: medqa/medqa.jsonl

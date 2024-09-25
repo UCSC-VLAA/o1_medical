@@ -1,0 +1,8 @@
+pmc_patient:
+  id: pmc_patient.dev.v0
+  metrics: [accuracy]
+
+pmc_patient.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: pmc_patient/sample_data.jsonl

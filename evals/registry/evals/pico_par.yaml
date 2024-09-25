@@ -1,0 +1,8 @@
+pico_par:
+  id: pico_par.dev.v0
+  metrics: [accuracy]
+
+pico_par.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: pico_par/sample_data.jsonl

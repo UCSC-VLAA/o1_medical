@@ -1,0 +1,8 @@
+mednli_dis:
+  id: mednli_dis.dev.v0
+  metrics: [accuracy]
+
+mednli_dis.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: mednli_dis/sample_data.jsonl

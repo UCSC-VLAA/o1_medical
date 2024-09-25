@@ -1,0 +1,1 @@
+EVALS_THREADS=20 oaieval gpt-4-0125-preview medqa_cot --no-cache

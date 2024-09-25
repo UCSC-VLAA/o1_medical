@@ -1,0 +1,1 @@
+EVALS_THREADS=1 oaieval o1-preview chatDoctor_test --no-cache

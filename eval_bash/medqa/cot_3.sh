@@ -1,0 +1,1 @@
+EVALS_THREADS=20 oaieval gpt-3.5-turbo medqa_cot --no-cache

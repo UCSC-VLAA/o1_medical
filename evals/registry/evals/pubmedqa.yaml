@@ -1,0 +1,17 @@
+pubmedqa:
+  id: pubmedqa.dev.v0
+  metrics: [accuracy]
+
+pubmedqa.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: pubmedqa/pubmedqa_sample.jsonl
+
+pubmedqa_full:
+  id: pubmedqa_full.dev.v0
+  metrics: [accuracy]
+
+pubmedqa_full.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: pubmedqa/pubmedqa.jsonl

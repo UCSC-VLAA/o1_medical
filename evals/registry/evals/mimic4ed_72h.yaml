@@ -1,0 +1,8 @@
+mimic4ed_72h:
+  id: mimic4ed_72h.dev.v0
+  metrics: [accuracy]
+
+mimic4ed_72h.dev.v0:
+  class: evals.elsuite.basic.match_nlp:Match
+  args:
+    samples_jsonl: mimic4ed_72h/sample_data.jsonl

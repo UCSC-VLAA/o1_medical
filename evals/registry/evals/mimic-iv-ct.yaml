@@ -1,0 +1,18 @@
+mimic-iv-ct:
+  id: mimic-iv-ct.dev.v0
+  metrics: [accuracy]
+
+mimic-iv-ct.dev.v0:
+  class: evals.elsuite.basic.match_nlp_gpt_hallu:Match
+  args:
+    samples_jsonl: mimic-iv-ct/sample_data.jsonl
+
+
+mimic-iv-ct-test:
+  id: mimic-iv-ct-test.dev.v0
+  metrics: [accuracy]
+
+mimic-iv-ct-test.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: mimic-iv-ct/sample_data_50.jsonl

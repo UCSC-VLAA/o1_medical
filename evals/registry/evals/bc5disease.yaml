@@ -1,0 +1,8 @@
+bc5disease:
+  id: bc5disease.dev.v0
+  metrics: [accuracy]
+
+bc5disease.dev.v0:
+  class: evals.elsuite.basic.match_nlp:Match
+  args:
+    samples_jsonl: bc5disease/sample_data.jsonl

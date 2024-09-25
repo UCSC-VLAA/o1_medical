@@ -1,0 +1,17 @@
+bc5chem:
+  id: bc5chem.dev.v0
+  metrics: [accuracy]
+
+bc5chem.dev.v0:
+  class: evals.elsuite.basic.match_nlp:Match
+  args:
+    samples_jsonl: bc5chem/sample_data.jsonl
+
+bc5chem-test:
+  id: bc5chem-test.dev.v0
+  metrics: [accuracy]
+
+bc5chem-test.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: bc5chem/sample_data_50.jsonl

@@ -1,0 +1,1 @@
+EVALS_THREADS=20 oaieval o1-preview medqa_cot --no-cache

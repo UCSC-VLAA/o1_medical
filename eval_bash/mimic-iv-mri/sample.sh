@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 oaieval o1-preview mimic-iv-mri --no-cache

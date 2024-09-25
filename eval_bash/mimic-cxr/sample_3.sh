@@ -1,0 +1,1 @@
+EVALS_THREADS=10 oaieval gpt-3.5-turbo mimic-cxr --no-cache

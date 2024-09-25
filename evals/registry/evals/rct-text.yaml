@@ -1,0 +1,8 @@
+rct-text:
+  id: rct-text.dev.v0
+  metrics: [accuracy]
+
+rct-text.dev.v0:
+  class: evals.elsuite.basic.match_nlp_gpt_hallu:Match
+  args:
+    samples_jsonl: rct-text/sample_data.jsonl

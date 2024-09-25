@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 oaieval o1-preview mimic4ed_72h --no-cache

@@ -1,0 +1,8 @@
+embs:
+  id: embs.dev.v0
+  metrics: [accuracy]
+
+embs.dev.v0:
+  class: evals.elsuite.basic.match_nlp_gpt_hallu:Match
+  args:
+    samples_jsonl: embs/sample_data.jsonl

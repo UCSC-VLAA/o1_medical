@@ -13,7 +13,7 @@
 
 > **A Preliminary Study of o1 in Medicine: Are We Closer to an AI Doctor?** 
 
- [Yunfei Xie*](https://yunfeixie233.github.io/), [Juncheng Wu*](https://chtholly17.github.io/), [Haoqin Tu*](https://www.haqtu.me/), [Siwei Yang*](https://laos-y.github.io/#about), [Bingchen Zhao](https://bzhao.me/), [Yongshuo Zong](https://ys-zong.github.io/), [Qiao Jin](https://andy-jqa.github.io/), [Cihang Xie](https://cihangxie.github.io/), [Yuyin Zhou](https://yuyinzhou.github.io/)
+ [Yunfei Xie*](https://yunfeixie233.github.io/), [Juncheng Wu*](https://chtholly17.github.io), [Haoqin Tu*](https://www.haqtu.me/), [Siwei Yang*](https://laos-y.github.io/#about), [Bingchen Zhao](https://bzhao.me/), [Yongshuo Zong](https://ys-zong.github.io/), [Qiao Jin](https://andy-jqa.github.io/), [Cihang Xie](https://cihangxie.github.io/), [Yuyin Zhou](https://yuyinzhou.github.io/)
 
 <sup>*</sup> Equal technical contribution  
 <sup>1</sup> UC Santa Cruz, <sup>2</sup> University of Edinburgh, <sup>3</sup> National Institutes of Health
